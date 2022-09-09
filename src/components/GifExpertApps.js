@@ -1,11 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 
 function GifExpertApps() {
 
+const [categories, setCategories] = useState(['Pokemon', 'Digimon', 'DragonBall'])
+
+/*     const categories = ['Pokemon', 'Digimon', 'DragonBall'];
+ */
 
 
-    const categories = ['Pokemon', 'Digimon', 'DragonBall'];
+
 
     return (
         <div>
